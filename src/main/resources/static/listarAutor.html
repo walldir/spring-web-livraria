@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Inicio</title>
+
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+table{
+	margin-top: 10px;
+    border-spacing: 0;
+}
+
+table thead tr{
+	font-weight: bold;
+	height: 40px;
+	text-align: center;
+}
+
+table thead tr th{
+	width: 200px;
+}
+
+table tfoot tr{
+	height: 40px;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+	<h2>Sistema de Livraria / Listar Autor</h1>
+	
+	<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="listarAutor.html">Listar Autores</a></li>
+			<li><a href="cadastrarAutor.html">Cadastrar Autor</a></li>
+		</ul>
+	</nav>
+	
+	<table border="1">
+		<thead>
+			<tr>
+				<th>Primeiro Nome</th>
+				<th>Último Nome</th>
+				<th>País</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Lucas</td>
+				<td>Luco</td>
+				<td>Brazil</td>
+			</tr>
+			<tr>
+				<td>Lucas</td>
+				<td>Luco</td>
+				<td>Brazil</td>
+			</tr>
+			<tr>
+				<td>Lucas</td>
+				<td>Luco</td>
+				<td>Brazil</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="3">Copyright 2017 - Waldir</td>
+			</tr>
+		</tfoot>
+	</table>
+</body>
+</html>

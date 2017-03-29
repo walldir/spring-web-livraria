@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+</style>
+</head>
+<body>
+	<h2>Inicio / Cadastro de Autor</h2>
+	
+	<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="listarAutor.html">Listar Autores</a></li>
+			<li><a href="cadastrarAutor.html">Cadastrar Autor</a></li>
+		</ul>
+	</nav>
+	
+	<form style="margin-top: 20px; width: 400px;" method="post" action="sucesso.hmtl">
+		<label for="primeiroNome">Primeiro Nome:</label>
+		<input type="text" name="primeiroNome" id="primeiroNome" placeholder="Primeiro Nome" required="required"/>
+		<br><br>
+		
+		<label for="primeiroNome">Ultimo Nome:</label>
+		<input type="text" name="ultimoNome" id="ultimoNome" placeholder="Ultimo Nome" required="required"/>
+		<br><br>
+		
+		<label for="primeiroNome">País:</label>
+		<input type="text" name="pais" id="pais" placeholder="Pais" required="required"/>
+		<br><br>
+		
+		<input type="submit" value="Cadastrar" > <input type="reset" value="Limpas Campos" style="float: right;">
+	</form>
+</body>
+</html>
